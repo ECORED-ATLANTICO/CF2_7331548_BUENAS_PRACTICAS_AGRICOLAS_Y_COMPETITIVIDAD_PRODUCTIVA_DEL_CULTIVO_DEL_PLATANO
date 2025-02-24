@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e9c7"/>
+      <stop offset="1" stop-color="#eadba3"/>
+    </radialGradient>
+    <filter id="Elipse_11494" x="0" y="0" width="102" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1116858" data-name="Grupo 1116858" transform="translate(-328.051 -11322)">
+    <g id="Grupo_1116742" data-name="Grupo 1116742" transform="translate(-786.282 11229)">
+      <g transform="matrix(1, 0, 0, 1, 1114.33, 93)" filter="url(#Elipse_11494)">
+        <g id="Elipse_11494-2" data-name="Elipse 11494" transform="translate(9 6)" stroke="#fff" stroke-width="4" fill="url(#radial-gradient)">
+          <circle cx="42" cy="42" r="42" stroke="none"/>
+          <circle cx="42" cy="42" r="40" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_01" data-name="01" transform="translate(363.051 11380)" fill="#12263f" font-size="27" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">01</tspan></text>
+  </g>
+</svg>
