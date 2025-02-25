@@ -187,41 +187,36 @@
 
 // lou
 
-.metodo 
+$icono: '../assets/curso/platano.svg'
+$fondo: '../assets/curso/fondo-platano.svg'
+
+.metodo
   display: inline-flex
   align-items: center
-  padding: 12px 20px
-  border-radius: 8px
+  position: relative
   font-weight: bold
   font-size: 18px
-  position: relative
   overflow: hidden
-
-  .fondo 
-    position: absolute
-    top: 0
-    left: 0
-    height: 100%
-    z-index: 0
-    min-width: 60px 
-    width: auto
+  padding-left: 55px 
+  height: 47px 
+  background: url($fondo) left center / auto 100% no-repeat
+  border-radius: 0 20px 20px 0 
   
-
-  .icono
-    width: 32px
-    height: 32px
+  &::before
+    content: ""
     position: absolute
     top: 50%
-    left: 20px 
+    left: -3px 
     transform: translateY(-50%)
-    z-index: 1 
-  
+    width: 55px
+    height: 100%
+    background: url($icono) center / contain no-repeat
 
   .texto
     color: #1D3557
+    padding: 12px 20px
     position: relative
     z-index: 1
-    margin-left: 70px
 
 // Titulos
 .bgr_1

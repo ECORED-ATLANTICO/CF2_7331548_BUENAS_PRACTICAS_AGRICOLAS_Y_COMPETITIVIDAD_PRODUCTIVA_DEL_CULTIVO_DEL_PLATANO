@@ -27,32 +27,32 @@
           .col-lg-6
             figure
               img.mb-5(src="@/assets/curso/temas/tema1/img_2.svg", alt="Imagen de un suelo con césped" class="img-fluid")
-        TabsB.color-acento-contenido.md-5
+        
+        TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Malezas hospedantes de enfermedades" :icono="require('@/assets/curso/temas/tema1/img_3.svg')")
             .row
-              .col-md-6.mb-4.mb-md-5
+              .col-md-6.mb-4.mb-md-0
                 p Algunas malezas representan un riesgo significativo, ya que albergan virus, bacterias e insectos perjudiciales. Entre las más problemáticas se encuentran la Siempre viva, transmisora de virus, así como la Emilia, el Cadillo y el Lulo de perro, que pueden hospedar bacterias como el Moko.
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema1/img_5.svg', alt='Imagen de unas manos sosteniendo un retoño')
-          .py-4.py-md-5(titulo="Importancia del control temprano" :icono="require('@/assets/curso/temas/tema1/img_4.svg')")
+                  img(src='@/assets/curso/temas/tema1/img_4.svg', alt='Imagen de unas manos sosteniendo un retoño')
+          .py-4.py-md-5(titulo="Importancia del control temprano" :icono="require('@/assets/curso/temas/tema1/img_5.svg')")
             .row
-              .col-md-6.mb-4.mb-md-5
-                p Las plantas jóvenes de plátano son especialmente vulnerables, ya que las malezas pueden proliferar con facilidad en los espacios libres a su alrededor. Durante el primer año del cultivo, es fundamental mantener la zona despejada para evitar la competencia por recursos esenciales y promover un desarrollo vigoroso.
+              .col-md-6.mb-4.mb-md-0
+                  p Las plantas jóvenes de plátano son especialmente vulnerables, ya que las malezas pueden proliferar con facilidad en los espacios libres a su alrededor. Durante el primer año del cultivo, es fundamental mantener la zona despejada para evitar la competencia por recursos esenciales y promover un desarrollo vigoroso.
               .col-md-6
                 figure
                     img(src='@/assets/curso/temas/tema1/img_6.svg', alt='Imagen de un suelo con césped')
-                    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
-        
-        div.metodo
-          img.fondo(src='@/assets/curso/fondo-platano.svg' alt='Fondo')
-          img.icono(src='@/assets/curso/platano.svg' alt='Plátano')
+                
+        div.metodo.mb-4.mb-md-5
           span.texto Métodos de control de arvenses
+        
+        p.mb-5 Existen diferentes métodos de control que pueden aplicarse según las condiciones del cultivo y los recursos disponibles.
+        
+        div.metodo.mb-4.mb-md-5
+          span.texto Plateo
 
-
-  
-
-  </template>
+</template>
 
 <script>
 export default {
@@ -63,34 +63,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-span.color-acento-darkgreen
-  background-color: #33490B
-  padding: 10px
-  border-radius: 6px
-  color: white
-.container-orange
-  background-color: #FB9231
-.container-peach
-  background-color: #FFE8D2
-.boton.color-acento-darkgreen
-  background-color: #33490B
-.container-peach-2
-  background-color: #FFF0D6
-.acordion__activo
-  background-color: #E6F1E8 !important
-.acordion__accion__btn--a
-  background-color: #F9A545
-.acordion__activo .acordion__accion__btn--a
-  background-color: #748578
-thead
-  background-color: #FFCE79
-th
-  background-color: #9EB682;
-
-tr:nth-child(odd)
-  background-color: #C7D5B6;
-
-tr:nth-child(even)
-  background-color: #E3EADA;
-</style>
+<style lang="sass"></style>
