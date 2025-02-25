@@ -380,15 +380,15 @@ $fondo: '../assets/curso/fondo-platano.svg'
 ///////// Linea tiempo --------------------------------------
 .linea-tiempo-d__item--selected, .linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content,.tarjeta,.tarjeta--gris
-    background-color: #F6F6F6 !important
+    background-color: #F7FEE7 !important
   .linea-tiempo-d__item__number
-    background-color: #FFCA00 !important
+    background-color: #D4F989 !important
   .linea-tiempo-d__item__dots:after
-    border-left: 5px dotted #D9D9D9 !important
+    border-left: 5px dotted #F6F6F6 !important
 .linea-tiempo-d__item__content__title
   height: 55px
 .tarjeta--gris
-    background-color: #D9D9D9
+    background-color: #F6F6F6
 
 // Tarjeta enumeradas
 .tarjeta-numerada.bg-01
@@ -771,24 +771,24 @@ $fondo: '../assets/curso/fondo-platano.svg'
   & > *
     position: relative
   h5
-    color: #7F4FC7
+    color: #12263F
   p
     margin-bottom: 0
   &::before
     position: absolute
     content: ''
     top: 0
-    right: 0
+    right: 7rem
     width: calc( 100% - 60px)
     height: 100%
-    background-color: #C5E5FE
+    background-color: #F6F6F6
 
   @media (max-width: 1000px)
     padding-right: 2rem
 
-.crd--first, .crd--last
+.crd--first,.crd--middle, .crd--last
   &::before
-    background-color: #DDEDF8 !important
+    background-color: #EEFDD0 !important
 
 .crd--first
   &::before
@@ -802,6 +802,9 @@ $fondo: '../assets/curso/fondo-platano.svg'
   bottom: 0
   right: -4rem
   z-index: 1
+  img
+    width: 295px
+    height: auto
   @media (max-width: 1000px)
     display: none
 
@@ -825,6 +828,37 @@ $fondo: '../assets/curso/fondo-platano.svg'
   background-color: #F6FAEA
   border-radius: 10px
 
+// platano
+.plateo-container
+  display: flex
+  justify-content: center
+  gap: 20px
+  padding: 20px
+  border: 2px solid #004aad
+  border-radius: 15px
+  position: relative
+
+  .plateo-card
+    width: 45%
+    border-radius: 15px
+    overflow: hidden
+    text-align: center
+
+    .plateo-title
+      background-color: #4A90E2
+      color: white
+      padding: 10px
+      font-weight: bold
+    
+    img 
+      width: 100%
+      height: auto
+      display: block
+
+  .plateo-right 
+    .plateo-title 
+      background-color: #8BC34A
+   
 
 // Tabla a 
 .tabla-a thead
