@@ -195,6 +195,15 @@
       color: textColor($color-secundario)
       &::before
         background-color: $color-secundario
+  &.color-terciario
+    .linea-tiempo-a__row
+      &::before
+        background-color: $color-terciario
+    .linea-tiempo-a__icon__container
+      background-color: $color-terciario
+      color: textColor($color-terciario)
+      &::before
+        background-color: $color-terciario
   &.color-acento-contenido
     .linea-tiempo-a__row
       &::before
@@ -275,6 +284,11 @@
       background-color: $color-secundario
       &:after
         background-color: $color-secundario
+  &.color-terciario
+    .linea-tiempo-b__icon
+      background-color: $color-terciario
+      &:after
+        background-color: $color-terciario
   &.color-acento-contenido
     .linea-tiempo-b__icon
       background-color: $color-acento-contenido
@@ -451,6 +465,24 @@
             background-color: $color-secundario
         &__dot
           border-color: $color-secundario
+  
+  &.color-terciario
+    .linea-tiempo-c__header__item--active
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before
+            background-color: $color-terciario
+        &__dot
+          border-color: $color-terciario
+          &:after
+            background-color: $color-terciario
+    .linea-tiempo-c__header__item--before
+      .linea-tiempo-c__header__item
+        &__line-container
+          &:before, &:after
+            background-color: $color-terciario
+        &__dot
+          border-color: $color-terciario
   &.color-acento-contenido
     .linea-tiempo-c__header__item--active
       .linea-tiempo-c__header__item
@@ -546,6 +578,11 @@
       .linea-tiempo-d__item__number
         background-color: $color-secundario
         color: textColor($color-secundario)
+  &.color-terciario
+    .linea-tiempo-d__item--selected
+      .linea-tiempo-d__item__number
+        background-color: $color-terciario
+        color: textColor($color-terciario)
   &.color-acento-contenido
     .linea-tiempo-d__item--selected
       .linea-tiempo-d__item__number
@@ -622,6 +659,10 @@
     .linea-tiempo-e__item__header
       &:before
         border-color: $color-secundario
+  &.color-terciario
+    .linea-tiempo-e__item__header
+      &:before
+        border-color: $color-terciario
   &.color-acento-contenido
     .linea-tiempo-e__item__header
       &:before

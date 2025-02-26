@@ -47,6 +47,22 @@ p
       background-color: $color-secundario
       *
         color: textColor($color-secundario)
+  &.color-terciario
+    background-color: $color-terciario
+    *
+      color: textColor($color-terciario)
+    &:active, &:focus, &:hover
+      background-color: $color-terciario
+      *
+        color: textColor($color-terciario)
+  &.color-terciario-claro
+    background-color: $color-terciario-claro
+    *
+      color: textColor($color-terciario-claro)
+    &:active, &:focus, &:hover
+      background-color: $color-terciario-claro
+      *
+        color: textColor($color-terciario-claro)
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -55,11 +71,12 @@ p
       background-color: $color-acento-contenido
       *
         color: textColor($color-acento-contenido)
-  &.color-acento-botones
-    background-color: $color-acento-botones
+  &.color-terciario-T10
+    background-color: $color-terciario-T10
     *
-      color: textColor($color-acento-botones)
+      color: textColor($color-terciario-T10)
     &:active, &:focus, &:hover
-      background-color: $color-acento-botones
+      background-color: $color-terciario-T10
       *
-        color: textColor($color-acento-botones)
+        color: textColor($color-terciario-T10)
+  &.color-terciario-T10

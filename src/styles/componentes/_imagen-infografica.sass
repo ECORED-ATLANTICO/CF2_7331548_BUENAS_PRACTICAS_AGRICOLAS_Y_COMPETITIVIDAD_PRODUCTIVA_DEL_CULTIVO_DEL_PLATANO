@@ -87,6 +87,14 @@
         background-color: $color-secundario
     .img-infografica__item__numero
       color: textColor($color-secundario)
+  &.color-terciario
+    .img-infografica__item__dot, .img-infografica-b__item__dot
+      i
+        color: textColor($color-terciario)
+      &:before, &:after
+        background-color: $color-terciario
+    .img-infografica__item__numero
+      color: textColor($color-terciario)
   &.color-acento-contenido
     .img-infografica__item__dot, .img-infografica-b__item__dot
       i
@@ -147,7 +155,11 @@
       color: textColor($color-secundario)
       i
         color: textColor($color-secundario)
-
+  &.color-terciario
+    .img-infografica-b__item__numero
+      color: textColor($color-terciario)
+      i
+        color: textColor($color-terciario)
   &.color-acento-contenido
     .img-infografica-b__item__numero
       color: textColor($color-acento-contenido)

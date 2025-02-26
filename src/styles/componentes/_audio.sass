@@ -31,6 +31,13 @@
         background-color: darken($color-secundario,10%)
     .spinner-border
       border-color: $color-secundario
+  &.color-terciario
+    .audio__btn
+      background-color: $color-terciario
+      &:hover
+        background-color: darken($color-terciario,10%)
+    .spinner-border
+      border-color: $color-terciario
   &.color-acento-contenido
     .audio__btn
       background-color: $color-acento-contenido
@@ -128,6 +135,22 @@
           background-image: linear-gradient($color-secundario, $color-secundario)
     .tarjeta-audio__tiempo
       color: $color-secundario
+  &.color-terciario
+    border-color: $color-terciario
+    .tarjeta-audio__texto
+      color: $color-terciario
+    .tarjeta-audio__input
+      input[type=range]
+        background: rgba($color-terciario, 0.2)
+        &::-webkit-slider-runnable-track
+          background: rgba($color-terciario, 0.2)
+        &::-webkit-slider-thumb
+          background-color: $color-terciario
+        &::-moz-range-thumb
+          background-color: $color-terciario
+          background-image: linear-gradient($color-terciario, $color-terciario)
+    .tarjeta-audio__tiempo
+      color: $color-terciario
 
   &.color-acento-contenido
     border-color: $color-acento-contenido

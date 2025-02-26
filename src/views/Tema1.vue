@@ -134,21 +134,24 @@
                     figure
                       img(src="@/assets/curso/temas/tema1/img_15.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Arranque de colino
+                    h4.mb-3.text-center Arranque de colino
+                    p.mb-0 Consiste en separar el brote de la planta madre utilizando herramientas como barretón o palín.
               .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-5
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/tema1/img_16.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Muerte de la yema apical
+                    h4.mb-3.text-center Muerte de la yema apical
+                    p.mb-0 Se realiza un corte basal al colino y, posteriormente, se elimina su punto de crecimiento mediante una incisión en forma de cruz. Para este procedimiento se emplean machetes o rulas.	
               .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-5
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/tema1/img_17.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Extracción del punto de crecimiento
+                    h4.mb-3.text-center Extracción del punto de crecimiento
+                    p.mb-0 Mediante un sacabocados, se retira la yema sin afectar el sistema radicular de la planta madre ni de los colinos restantes.
               .col-xl-10.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
                 div.metodo.mb-4.mb-md-5
                   span.texto Desguasque

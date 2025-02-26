@@ -74,6 +74,16 @@
       background-color: $color-secundario
       span
         color: textColor($color-secundario)
+  &.color-terciario
+    .titulo-principal__numero
+      background-color: $color-terciario
+      span
+        color: textColor($color-terciario)
+  &.color-terciario-claro
+    .titulo-principal__numero
+      background-color: $color-terciario-claro
+      span
+        color: textColor($color-terciario-claro)
   &.color-acento-contenido
     .titulo-principal__numero
       background-color: $color-acento-contenido
@@ -101,6 +111,9 @@
   &.color-secundario
     &:after
       border-left-color: $color-secundario
+  &.color-terciario
+    &:after
+      border-left-color: $color-terciario
   &.color-acento-contenido
     &:after
       border-left-color: $color-acento-contenido
@@ -147,6 +160,11 @@
       border-bottom-color: $color-secundario !important
       &:before
         border-top-color: $color-secundario
+  &.color-terciario
+    &> *
+      border-bottom-color: $color-terciario !important
+      &:before
+        border-top-color: $color-terciario
   &.color-acento-contenido
     &> *
       border-bottom-color: $color-acento-contenido !important
@@ -171,6 +189,8 @@
     border-left-color: $color-primario
   &.color-secundario
     border-left-color: $color-secundario
+  &.color-terciario
+    border-left-color: $color-terciario
   &.color-acento-contenido
     border-left-color: $color-acento-contenido
   &.color-acento-botones
@@ -201,6 +221,11 @@
     background-color: lighten($color-secundario, 20%)
     &:before
       background-color: $color-secundario
+  &.color-terciario
+    background-color: lighten($color-terciario, 20%)
+    &:before
+      background-color: $color-terciario
+      
   &.color-acento-contenido
     background-color: lighten($color-acento-contenido, 30%)
     &:before
@@ -251,6 +276,9 @@
   &.color-secundario
     &:before
       background-color: $color-secundario
+  &.color-terciario
+    &:before
+      background-color: $color-terciario
   &.color-acento-contenido
     &:before
       background-color: $color-acento-contenido

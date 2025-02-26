@@ -88,7 +88,7 @@
   background-color: #FB9231
 
 .bg-09
-  background-color: #98E465
+  background-color: #CEF0B6
 
 .bg-10
   background-color: #FFCE79
@@ -156,18 +156,17 @@
   p 
     margin-bottom: 0
   .slyder-a__bullets__item--active
-    background-color: #AFC2DD
-    border-color: #AFC2DD
+    display: none
   .slyder-a__bullets__item
-    background-color: #AFC2DD
+    display: none
   .slyder-a__btn--atrs
-    background-color: #FF964C
-    border-color: #FF964C
-    color: #fff
+    background-color: #D4F989
+    border-color: #D4F989
+    color: #12263F
   .slyder-a__btn--sigt
-    background-color: #FF964C
-    border-color: #FF964C
-    color: #fff
+    background-color: #D4F989
+    border-color: #D4F989
+    color: #12263F
   .tarjeta--blanca
     border-radius: 25px
   .slyder-a__tipo-b mt-3
@@ -368,13 +367,13 @@ $fondo: '../assets/curso/fondo-platano.svg'
   background-color: #8C492A
 
 .cajon.bg-4::before
-  background-color: #FFCE79
+  background-color: #98E465
 .cajon.bg-4
-  background-color: #FFEBC9
+  background-color: #CEF0B6
   p
     margin-bottom: 0
 .cajon.bg-4::before
-  background-color: #FFCE79
+  background-color: #98E465
 
 
 ///////// Linea tiempo --------------------------------------
@@ -459,7 +458,10 @@ $fondo: '../assets/curso/fondo-platano.svg'
 
 .tarjeta_bg-04
   background-color: #EDF1E9
-
+.tarjeta_bg-05
+  background-color: $color-terciario-T10
+.tarjeta_bg-06
+  background-color: $color-acento-A10
 .text-gris
   .lista-ul--color li > i:first-of-type
     color: #748578 !important
@@ -871,7 +873,18 @@ $fondo: '../assets/curso/fondo-platano.svg'
 
 .tabla-a td 
   border: 3px #166340  solid
-
+td p 
+    text-align: justify
+    margin: 5px 0
+.img-container 
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+ul
+  text-align: left
+  padding-left: 20px
+  
 .bg-table-01
   background-color: #E3EADA
   color: #111e61
@@ -883,31 +896,97 @@ $fondo: '../assets/curso/fondo-platano.svg'
 .bg-table-03
   background-color: #CDDDD0
   color: #111e61  
-  
+
+// Tabla a1
+.tabla-a1 thead
+  border: 2px #3E4E7D solid
+  color: #12263F
+  background-color: #7D9FFB
+
+.tabla-a1 th 
+  border: 2px #3E4E7D  solid
+
+.tabla-a1 td 
+  border: 2px #3E4E7D  solid
+
+.bg-table-GM
+  background-color: #E4EBFE
+  color: #111e61
+
+.bg-table-02
+  background-color: #7D9FFB
+  color: #111e61
+
+.bg-table-03
+  background-color: #7D9FFB
+  color: #111e61  
+///////// -------
+.card-custom
+  border-radius: 0
+  border: 0
+  overflow: hidden
+  text-align: center
+  color: #12263F
+  font-weight: bold
+  font-size: 1.125em
+  font-weight: 700
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+
+  img
+    width: 100%
+    height: auto
+    display: block
+
+  .card-body
+    padding: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+
+  &.bg-left
+    background-color: #D4F989
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
+
+  &.bg-center
+    background-color: #98E465
+
+  &.bg-right
+    background-color: #D4F989
+    border-top-right-radius: 20px
+    border-bottom-right-radius: 20px
+
 ///////// Card hover --------------------------------------
 .crd_hover_txt
   position: relative  
   padding: 0 !important
-  overflow: hidden !important
-  border-radius: 15px
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
+  overflow: hidden !important 
+  border-radius: 0 0 15px 15px;
   &:hover    
     .crd_hover_txt--body   
+      background-color: #E4EBFE
       // color: #12263F
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
     h4
       color: #12263F !important
 
   .crd_hover_txt--body
     position: absolute
-    padding: 0
-    width: 100%
-    bottom: 0
-    text-align: center
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
     background-color: #E4EBFE
+    border-radius: 0 0 15px 15px;
+
     h4
       color: #12263F
       font-style: italic
-      font-size: 1rem
 
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
