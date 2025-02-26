@@ -126,52 +126,47 @@
         p.mb-5 A continuación, se describen algunos métodos de eliminación de colinos:
         
         .row.justify-content-center.align-items-center.mb-3
-          .col-lg-10.mb-5
+          .col-lg-10.mb-3
             .row.justify-content-center.mb-3
-              .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+              .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-5
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/tema1/img_15.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Terpenos
-                    p.mb-0 Cumplen una función antioxidante, en este grupo están los pigmentos carotenoides. 
-  
-              .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+                    h4.mb-3 Arranque de colino
+              .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-5
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/tema1/img_16.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Fenoles
-                    p.mb-0 Desempeñan una función antioxidante, entre estos se encuentran a los pigmentos flavonoides presentes en los frutos azulados. 
-  
-              .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+                    h4.mb-3 Muerte de la yema apical
+              .col-xl-3.col-lg-6.col-md-9.col-11.mb-4.mb-xl-5
                 .crd_hover_txt(data-aos="flip-left")
                   .crd_hover_txt--img
                     figure
                       img(src="@/assets/curso/temas/tema1/img_17.svg", alt="alt")
                   .crd_hover_txt--body
-                    h4.mb-3 Tioles y lignanos
-                    p.mb-0 Efectúan una función antioxidante y se pueden encontrarse en alimentos como el brócoli, el repollo, la cebolla, el trigo y la cebada.
-        
-              div.metodo.mb-4.mb-md-5
-                span.texto Desguasque
-              .row 
-                .col-lg-2
-                  img(src="@/assets/curso/temas/tema1/img_18.svg", alt="Imagen de unos platanos" class="img-fluid")
-                .col-lg-8
-                  p.mb-0 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
+                    h4.mb-3 Extracción del punto de crecimiento
+              .col-xl-10.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
+                div.metodo.mb-4.mb-md-5
+                  span.texto Desguasque
+                .row.mb-3
+                  .col-lg-3
+                    img(src="@/assets/curso/temas/tema1/img_18.svg", alt="Imagen de unos platanos" class="img-fluid")
+                  .col-lg-9
+                    p.mb-3 El desguasque se encuentra dentro de las prácticas culturales recomendadas para favorecer la sanidad y vigor de las plantas. Esta labor consiste en eliminar la guasca seca que hay en el pseudotallo, se puede realizar cada vez que lo requiera el cultivo, procurando no hacer daño a la planta; el no realizar esta labor en la platanera puede generar plagas como el Picudo, el Rayado, la Palomilla y algunas enfermedades como el virus en el pseudotallo.
 
-              div.metodo.mb-4.mb-md-5
-                span.texto Deshoje
+                div.metodo.mb-4.mb-md-5
+                  span.texto Deshoje
 
-              .row.d-flex.align-items-center.mb-5
-                .col-lg-7
-                  p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
-                  p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
-                .col-lg-3
-                  img(src="@/assets/curso/temas/tema1/img_19.svg", alt="Imagen de unas ondas o olas" class="img-fluid")
+                .row.d-flex.align-items-center.mb-0
+                  .col-lg-8
+                    p.mb-3 Implica la eliminación de hojas secas, dobladas o ubicadas en la parte inferior de la planta, con el propósito de mejorar la circulación del aire y la penetración de la luz solar, reduciendo así el riesgo de plagas y enfermedades. Se recomienda retirar también hojas con manchas o con tejidos verdes afectados, siempre asegurando que al menos el 50% del área foliar permanezca intacta para no comprometer la fotosíntesis. Esta práctica es clave en el manejo de la Sigatoca negra.
+                    p.mb-0 El corte de las hojas debe realizarse a una altura de 20 a 30 cm del pecíolo y puede efectuarse en cualquier momento del día, según lo requiera el cultivo.
+                  .col-lg-4
+                    img(src="@/assets/curso/temas/tema1/img_19.svg", alt="Imagen de unas ondas o olas" class="img-fluid")
         
         div.metodo.mb-4.mb-md-5
           span.texto Amarre
@@ -184,7 +179,7 @@
               img(src="@/assets/curso/temas/tema1/img_20.svg", alt="Imagen de unas ondas o olas" class="img-fluid")
           .col-lg-7
             .tarjeta.fondo_1_2.p-4.slyder_1.bg-01
-                SlyderA(tipo="b")
+                SlyderA(tipo="a")
                   .tarjeta.bg-01.p-2
                     .row.justify-content-center.align-items-center.p-3
                       .col-md-12.col-xl-7.mb-4
@@ -349,20 +344,25 @@
                     th Manejo Integrado
                 tbody
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Moko o Madurebiche
+                    td Ralstonia solanacearum
+                    td Marchitamiento, amarillamiento, necrosis vascular, pudrición interna en cormos y racimos.
+                    td Erradicación de plantas enfermas, desinfección de herramientas, control biológico (hongos antagonistas), control químico (si es necesario).
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Pudrición Acuosa del Pseudotallo
+                    td Dickeya chrysanthemi
+                    td Manchas acuosas y translúcidas en pseudotallo, olor fétido, debilitamiento de la planta, caída de hojas.
+                    td Desinfección de herramientas, control de vectores (insectos), control químico (si es necesario), manejo de la humedad del suelo.
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Mal de Panamá
+                    td Fusarium oxysporum f. sp. cubense
+                    td Amarillamiento y marchitamiento, necrosis vascular, pudrición de raíces y cormos.
+                    td Resistencia varietal, manejo del suelo (drenaje, pH), rotación de cultivos, eliminación de plantas enfermas.
+                  tr
+                    td Sigatoka Negra
+                    td Mycosphaerella fijiensis var. difformis
+                    td Estrías y manchas necróticas en hojas, desde el envés hasta el haz, defoliación, reducción de rendimiento.
+                    td Fungicidas, manejo de la humedad, deshoje de hojas afectadas, variedades resistentes.
           .col-lg-10.mb-3
             .titulo-sexto.bg-11.mb-4
               h5 Tabla 2: 
@@ -379,20 +379,20 @@
                     th Manejo Integrado
                 tbody
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Picudo Negro
+                    td Cosmopolites sordidus
+                    td Túneles en cormos y pseudotallos, debilitamiento de la planta
+                    td Trampeo, control biológico (hongos entomopatógenos, depredadores naturales), control químico (si es necesario), selección de material sano.
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Picudo Rayado y Picudo Amarillo
+                    td Metamasius hemipterus, M. hebetatus
+                    td Daños en pseudotallos y cormos, debilitamiento y caída de hojas, reducción de rendimiento.
+                    td Trampeo, control químico (si es necesario), manejo de la nutrición (potasio, boro), eliminación de residuos de cosecha.
                   tr
-                    td Celda 1
-                    td Celda 2
-                    td Celda 3
-                    td Celda 4
+                    td Nematodos
+                    td Varios géneros
+                    td Daños en raíces, reducción del vigor, amarillamiento, reducción de rendimiento.
+                    td Análisis de suelo, rotación de cultivos, uso de material vegetativo sano, control químico (nematicidas, si es necesario).
           .col-lg-11.p-4.ps-5.color-acento-contenido
             .cajon.bg-1.g_18.mb-3
               .row.mb-4

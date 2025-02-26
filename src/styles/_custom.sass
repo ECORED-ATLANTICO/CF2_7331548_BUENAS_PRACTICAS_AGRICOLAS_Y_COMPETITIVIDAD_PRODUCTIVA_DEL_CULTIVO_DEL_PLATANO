@@ -27,7 +27,7 @@
   color: #fff
 
 .titulo-sexto
-  color: #FFCE79 !important
+  color: #7D9FFB !important
 
   
   ///// slyder --------------------------------------
@@ -347,14 +347,14 @@ $fondo: '../assets/curso/fondo-platano.svg'
 // Colores de cajones
 
 .cajon.bg-1
-  background-color: #DDE5D3
+  background-color: #E4EBFE
   p
     margin-bottom: 0
 .cajon.bg-1::before
-  background-color: #33490B
+  background-color: $color-acento-contenido
 
 .cajon.bg-2
-  background-color: #DDE5D3
+  background-color: #E4EBFE
   p
     margin-bottom: 0
 
@@ -862,15 +862,15 @@ $fondo: '../assets/curso/fondo-platano.svg'
 
 // Tabla a 
 .tabla-a thead
-  border-top: 5px #FFCE79 solid
-  color: #111e61
-  background-color: #9EB682
+  border: 3px #166340 solid
+  color: #12263F
+  background-color: #98E465
 
 .tabla-a th 
-  border: 2px #e8e8e8  solid
+  border: 3px #166340  solid
 
 .tabla-a td 
-  border: 2px #de8e8e8  solid
+  border: 3px #166340  solid
 
 .bg-table-01
   background-color: #E3EADA
@@ -888,26 +888,26 @@ $fondo: '../assets/curso/fondo-platano.svg'
 .crd_hover_txt
   position: relative  
   padding: 0 !important
-  overflow: hidden !important 
+  overflow: hidden !important
+  border-radius: 15px
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1)
   &:hover    
     .crd_hover_txt--body   
-      background-color: #FFCE79
       // color: #12263F
-      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
-      transform: translateY(0)
     h4
       color: #12263F !important
 
   .crd_hover_txt--body
     position: absolute
-    padding: 1.5rem
-    bottom: 0    
-    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 3.85rem ))
-    background-color: #33490B
+    padding: 0
+    width: 100%
+    bottom: 0
+    text-align: center
+    background-color: #E4EBFE
     h4
-      color: #fff
+      color: #12263F
       font-style: italic
+      font-size: 1rem
 
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
