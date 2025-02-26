@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[https://ecored-atlantico.github.io/73311548_CF02_CULTIVO_DE_PLATANO/](https://ecored-atlantico.github.io/73311548_CF02_CULTIVO_DE_PLATANO/)
 
 #
 
